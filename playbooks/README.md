@@ -1,3 +1,3 @@
 # Playbooks
 
-Playbooks de resposta a incidentes e automatizações (Logic Apps) associados aos alertas.
+Playbooks/SOPs escritos pelo autor que orientam a investigação e a classificação de severidade pelo agente.
