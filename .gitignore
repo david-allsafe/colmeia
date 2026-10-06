@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Colmeia
+data/*
+!data/README.md
+data/**/*.json
+.env
+*.log
+.venv/
