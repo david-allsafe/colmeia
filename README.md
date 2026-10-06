@@ -6,7 +6,7 @@ Mini-SOC em Azure com honeypot Cowrie, Microsoft Sentinel e um agente de IA para
 
 - `detections/sigma/` – regras Sigma
 - `detections/kql/` – consultas KQL para o Sentinel
-- `preprocessing/` – normalização e enriquecimento de logs
+- `preprocessing/` – preparação dos alertas do Sentinel antes da triagem (hash, agregação, descodificação, sanitização)
 - `baseline/` – triagem determinística por regras, como termo de comparação com a IA
 - `agent/` – agente de triagem por IA
 - `playbooks/` – playbooks/SOPs que orientam a investigação e a severidade do agente
